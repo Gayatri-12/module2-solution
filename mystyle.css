@@ -1,0 +1,113 @@
+.container{
+position:relative;
+width:95%;
+margin:50px auto;
+}
+#center{
+text-align:center;
+font-family:courier;
+font-size:70px
+}
+.style
+{
+background-color:pink;
+padding:30px 20px 10px 20px;
+border: 2px solid black;
+}
+div.top-right
+{
+position : absolute;
+top:0px;
+right:0px;
+border: 2px;
+width: 58px;
+height:20px;
+height: 20px;
+background-color:#90EE90;
+text-align:center;
+}
+@media (min-width: 992px){
+.p1
+{
+top: 100px;
+left: 2px;
+position: relative;
+float: left;
+height:30%;
+width:28%;
+}
+.p2
+{
+top: 100px;
+left: 32px;
+position: relative;
+float: left;
+height:30%;
+width:28%;
+}
+.p3
+{
+top: 100px;
+left: 65px;
+position: relative;
+float: left;
+height:30%;
+width:28%;
+}
+}
+@media (min-width: 768px ) and (max-width: 991px){
+.p1
+{
+position: relative;
+top:100px;
+left: 2px;
+float: left;
+height: 30%;
+width: 38%;
+}
+.p2
+{
+position: relative;
+top:100px;
+left: 32px;
+float: left;
+height: 30%;
+width: 38%;
+}
+.p3
+{
+position: relative;
+top:200px;
+left: 2px;
+float: left;
+width: 100%;
+float:left
+}
+}
+@media (max-width: 767px)
+{
+.p1
+{
+position: relative;
+top:50px;
+left: 2px;
+width:100%;
+float: left;
+}
+.p2
+{
+position: relative;
+top:160px;
+left: 2px;
+width:100%;
+float: left;
+}
+.p3
+{
+position: relative;
+top:260px;
+left: 2px;
+width:100%;
+float: left;
+}
+}
